@@ -1,0 +1,22 @@
+symbols:
+  - BTCUSDT
+  - ETHUSDT
+  - BNBUSDT
+  - LTCUSDT
+
+# Working approximation from 01_temporal_alignment.ipynb.
+# Sign convention:
+# effective_local_trade_timestamp_us =
+#     exchange_trade_timestamp_us + offset_ms * 1000
+trade_alignment_offset_ms:
+  BTCUSDT: 27
+  ETHUSDT: 191
+  BNBUSDT: 140
+  LTCUSDT: 265
+
+# A transition across a larger missing-data gap must not be used by the RL
+# environment. The next state starts a new episode.
+episode_max_gap_ms: 5000
+
+lob_depth: 5
+lob_lookback_steps: 64

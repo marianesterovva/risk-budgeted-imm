@@ -1,0 +1,15 @@
+{
+  "alarm_threshold": 0.37933367793088646,
+  "alarm_threshold_quantile": 0.75,
+  "calibration_scope": "frozen_v09_D2_training_only",
+  "conversion_factor": 0.4605951126499064,
+  "conversion_quantile": 0.75,
+  "horizon_steps": 120,
+  "observations": 141923,
+  "ratio_mean": 0.257819526334651,
+  "ratio_positive_fraction": 0.6202941031404353,
+  "raw_conversion_quantile": 0.4605951126499064,
+  "source_manifest_digest": "4bccff71573ab16128624d55b7a6f468aa2e629e15a3d135ab00db7c11599cfe",
+  "test_used": false,
+  "validation_used": false
+}

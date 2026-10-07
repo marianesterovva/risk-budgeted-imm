@@ -1,0 +1,11 @@
+seed,checkpoint_episode,metric,mean_difference,k4_better_windows,windows
+10801,10,normalized_discounted_cost,-2.966297113108555,7,7
+10802,10,normalized_discounted_cost,-4.253579365320193,7,7
+10803,10,normalized_discounted_cost,1.0068052464309531,0,7
+10804,10,normalized_discounted_cost,-0.3684617593079574,5,7
+10805,10,normalized_discounted_cost,-5.153155809208391,7,7
+10801,10,pnl_sum,-3.4149883628299764,3,7
+10802,10,pnl_sum,22.685168698852085,3,7
+10803,10,pnl_sum,-3.3119928946821346,5,7
+10804,10,pnl_sum,2.5482856547241193,3,7
+10805,10,pnl_sum,17.161794036553506,2,7

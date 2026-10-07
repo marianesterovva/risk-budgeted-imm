@@ -1,0 +1,32 @@
+# FillSimulator v0.1
+#
+# Historical replay assumptions:
+# - infinitesimal agent: agent orders do not alter the historical trajectory;
+# - individual Binance aggressive trades drive fills;
+# - explicit virtual queue-ahead;
+# - partial fills enabled;
+# - trade-through produces a full fill;
+# - historical cancellations are approximated proportionally;
+# - inferred cancellations are applied after known trades in each transition;
+# - historical additions are treated as arriving behind already-resting agent orders;
+# - zero placement/cancel latency in v0.1.
+
+max_gap_ms: 5000
+
+placement_latency_ms: 0
+cancel_latency_ms: 0
+
+queue_model: proportional
+cancellations_after_trades: true
+
+trade_through_fill: false
+allow_partial_fills: true
+
+allow_marketable_orders: false
+allow_inside_spread: true
+allow_beyond_depth5: false
+
+# Intentionally unset.
+# Fix this explicitly in the experiment protocol before evaluating PnL.
+# Negative values represent maker rebates.
+maker_fee_rate: null

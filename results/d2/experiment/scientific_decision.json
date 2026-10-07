@@ -1,0 +1,40 @@
+{
+  "spec_id": "v09_budget_paced_order_aware_20260927",
+  "method_digest": "9f8d01ab0542f8d4238d95f3e20e4831a86fdd9c31784a2d1a908a2851431af4",
+  "complete_seeds": 5,
+  "windows_per_seed": 7,
+  "primary_checkpoint": 10,
+  "proposed_label": "D2_ORDER_AWARE_PACING",
+  "target_budget": 1.2142215137929977,
+  "proposed_risk": 2.271555911790485,
+  "proposed_crossed_ci": [
+    1.3464083156407678,
+    3.5738681870503948
+  ],
+  "proposed_block_ci": [
+    1.3597726330458504,
+    3.595114447441953
+  ],
+  "proposed_budget_gate": false,
+  "activity_ratio_vs_k0": 0.6617884121438586,
+  "activity_gate": true,
+  "order_signal_nondegenerate": true,
+  "order_aware_increment": -2.925045351680584,
+  "order_aware_increment_ci": [
+    -7.170738886594103,
+    0.4940876968796777
+  ],
+  "order_aware_increment_confirmed": false,
+  "order_aware_gate": false,
+  "proposed_vs_episodic_dual": -1.3632209360417589,
+  "proposed_vs_episodic_dual_ci": [
+    -3.6302453769820033,
+    0.0468637085711531
+  ],
+  "episodic_dual_improvement_confirmed": false,
+  "checkpoint_reselection_performed": false,
+  "controller_retuning_performed": false,
+  "fixed_penalty_retuning_performed": false,
+  "test_used": false,
+  "next_route": "REPORT_NEGATIVE_RESULT_NO_OOS_AUTHORIZATION"
+}

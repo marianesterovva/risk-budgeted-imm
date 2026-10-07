@@ -1,0 +1,32 @@
+{
+  "spec_id": "v08_frozen_k4_ep10_multiseed_20260925",
+  "authorization_spec": "v07b_q_warning_adjudication_20260924",
+  "labels": [
+    "K0_UNCONSTRAINED",
+    "K4_VERY_STRONG"
+  ],
+  "selected_kappa": 0.0131684977236533,
+  "training_seeds": [
+    10801,
+    10802,
+    10803,
+    10804,
+    10805
+  ],
+  "primary_checkpoint": 10,
+  "sensitivity_checkpoint": 20,
+  "validation_starts": [
+    602028,
+    619985,
+    637921,
+    655797,
+    673777,
+    691626,
+    709586
+  ],
+  "loose_budget": 1.2142215137929977,
+  "strict_budget": 0.7588884461206233,
+  "activity_floor_fraction": 0.5,
+  "checkpoint_reselection_allowed": false,
+  "test_used": false
+}

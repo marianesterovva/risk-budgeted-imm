@@ -1,0 +1,40 @@
+{
+  "spec_id": "v08a_fixed_penalty_statistical_closure_20260927",
+  "source_spec_id": "v08_frozen_k4_ep10_multiseed_20260925",
+  "seeds": 5,
+  "windows": 7,
+  "primary_checkpoint": 10,
+  "relative_risk_effect": -2.3469377601028287,
+  "crossed_risk_ci": [
+    -4.490667753720326,
+    -0.21506436420192304
+  ],
+  "moving_block_risk_ci": [
+    -4.466836925002706,
+    -0.27541060026500336
+  ],
+  "seed_t_risk_ci": [
+    -5.576201678442856,
+    0.8823261582371984
+  ],
+  "crossed_relative_effect_confirmed": true,
+  "moving_block_relative_effect_confirmed": true,
+  "seed_t_relative_effect_confirmed": false,
+  "loose_budget": 1.2142215137929977,
+  "k4_risk": 1.2703849765597226,
+  "loose_point_feasible": false,
+  "loose_crossed_ci_feasible": false,
+  "activity_floor": 0.5,
+  "all_seeds_pass_activity_floor": true,
+  "pnl_difference": 7.1336534265235185,
+  "crossed_pnl_ci": [
+    -11.658333435362614,
+    33.091791498843754
+  ],
+  "fixed_penalty_stage_closed": true,
+  "fixed_penalty_retuning_allowed": false,
+  "checkpoint20_required": false,
+  "test_used": false,
+  "next_route": "DEVELOP_ADAPTIVE_DUAL_ON_TRAIN_ONLY_THEN_FREEZE",
+  "interpretation": "The fixed K4 penalty substantially lowers relative inventory risk and preserves activity, but does not provide reproducible absolute budget compliance. The result motivates adaptive dual control; it does not authorize retuning K4 on the same validation windows."
+}

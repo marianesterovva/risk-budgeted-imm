@@ -1,0 +1,2 @@
+spec_id,authorization_spec,labels,selected_kappa,training_seeds,primary_checkpoint,sensitivity_checkpoint,validation_starts,loose_budget,strict_budget,activity_floor_fraction,checkpoint_reselection_allowed,test_used
+v08_frozen_k4_ep10_multiseed_20260925,v07b_q_warning_adjudication_20260924,"['K0_UNCONSTRAINED', 'K4_VERY_STRONG']",0.0131684977236533,"[10801, 10802, 10803, 10804, 10805]",10,20,"[602028, 619985, 637921, 655797, 673777, 691626, 709586]",1.2142215137929977,0.7588884461206233,0.5,False,False

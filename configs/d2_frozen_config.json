@@ -1,0 +1,58 @@
+{
+  "spec_id": "v09_budget_paced_order_aware_20260927",
+  "source_v08_spec": "v08_frozen_k4_ep10_multiseed_20260925",
+  "source_v08a_spec": "v08a_fixed_penalty_statistical_closure_20260927",
+  "arms": {
+    "D0_EPISODIC_DUAL": {
+      "mode": "episodic",
+      "order_aware": false
+    },
+    "D1_REALIZED_PACING": {
+      "mode": "pacing",
+      "order_aware": false
+    },
+    "D2_ORDER_AWARE_PACING": {
+      "mode": "pacing",
+      "order_aware": true
+    }
+  },
+  "proposed_label": "D2_ORDER_AWARE_PACING",
+  "seeds": [
+    10801,
+    10802,
+    10803,
+    10804,
+    10805
+  ],
+  "primary_episode": 10,
+  "validation_starts": [
+    602028,
+    619985,
+    637921,
+    655797,
+    673777,
+    691626,
+    709586
+  ],
+  "target_budget": 1.2142215137929977,
+  "strict_budget": 0.7588884461206233,
+  "selected_kappa": 0.0131684977236533,
+  "lambda_init": 13.168497723653289,
+  "lambda_max": 105.34798178922631,
+  "dual_lr_episode": 13.168497723653289,
+  "dual_lr_block": 0.4389499241217763,
+  "controller_block_steps": 120,
+  "controller_error_clip": 2.0,
+  "context_features": [
+    "budget_ratio",
+    "remaining_budget_fraction",
+    "pace_error",
+    "lambda_ratio",
+    "order_alarm"
+  ],
+  "checkpoint_reselection_allowed": false,
+  "controller_retuning_allowed": false,
+  "fixed_penalty_retuning_allowed": false,
+  "test_used": false,
+  "method_digest": "9f8d01ab0542f8d4238d95f3e20e4831a86fdd9c31784a2d1a908a2851431af4"
+}

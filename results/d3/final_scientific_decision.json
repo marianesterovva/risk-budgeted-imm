@@ -1,0 +1,45 @@
+{
+  "spec_id": "v10_d3_fill_aware_residual_dual_20261005",
+  "method_digest": "df224d56ef450692b913e0d6bf8b122e718365821c23b5d4cd3f0788e020a38a",
+  "proposed_label": "D3C_FILL_AWARE_ANTI_WINDUP",
+  "seeds": 5,
+  "windows_per_seed": 7,
+  "branch_episodes": 5,
+  "target_budget": 1.2142215137929977,
+  "proposed_risk": 2.1642026368515324,
+  "proposed_crossed_ci": [
+    1.5138630104707833,
+    2.89257649727059
+  ],
+  "proposed_block_ci": [
+    1.5198970974455817,
+    2.888896021089971
+  ],
+  "activity_ratio_vs_k0": 0.740563181170943,
+  "budget_gate": false,
+  "activity_gate": true,
+  "incremental_order_aware_gate": false,
+  "complete_controller_gate": false,
+  "signal_gate": true,
+  "controller_health_gate": true,
+  "fresh_oos_authorized": false,
+  "checkpoint_reselection_performed": false,
+  "controller_retuning_performed": false,
+  "fixed_penalty_retuning_performed": false,
+  "test_used": false,
+  "final_route": "FREEZE_NEGATIVE_D3_RESULT_NO_OOS_AUTHORIZATION",
+  "confirmed_findings": [
+    "D3C risk=2.1642, crossed CI [1.5139, 2.8926].",
+    "D3C retained 74.06% of historical K0 filled notional.",
+    "D3C−D3B risk=+0.0279, crossed CI [-0.0876, 0.2178].",
+    "D3C−D3A risk=+0.4282, crossed CI [-0.3948, 1.1826].",
+    "Residual cap fraction=0.0000; selective alarm-positive fraction=0.1691.",
+    "No checkpoint reselection, controller retuning, test access or OOS access was performed."
+  ],
+  "unsupported_claims": [
+    "Independent out-of-sample superiority: the seven windows are development validation.",
+    "Guaranteed budget compliance outside the frozen evaluation design.",
+    "Statistical order-aware superiority unless the D3C−D3B upper CI is below zero.",
+    "Live-trading validity or execution-model robustness."
+  ]
+}

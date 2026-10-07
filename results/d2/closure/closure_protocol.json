@@ -1,0 +1,63 @@
+{
+  "checkpoint_reselection_performed": false,
+  "closure_spec": "v09a_final_statistical_closure_20260928",
+  "controller_retuning_performed": false,
+  "inputs": [
+    {
+      "name": "v08_protocol",
+      "path": "artifacts/risk_budgeted_imm_v08/ETHUSDT/frozen_k4_ep10_multiseed/protocol.json",
+      "sha256": "6b9c82e45fd3715bda21571767b8b4495acb015b4da35243e3d22daf973def4f",
+      "size_bytes": 654
+    },
+    {
+      "name": "v08_episodes",
+      "path": "artifacts/risk_budgeted_imm_v08/ETHUSDT/frozen_k4_ep10_multiseed/primary_evaluation_episodes.csv",
+      "sha256": "2ec8933ae2a2d4472e92ee3c7c324141988c0a8001c0df847870ada714b2b796",
+      "size_bytes": 12149
+    },
+    {
+      "name": "v08_transitions",
+      "path": "artifacts/risk_budgeted_imm_v08/ETHUSDT/frozen_k4_ep10_multiseed/primary_evaluation_transitions.parquet",
+      "sha256": "45b0664b85f55d187f8ec2afa60e079094d473196dad2574e6431210104c3dbd",
+      "size_bytes": 8596019
+    },
+    {
+      "name": "v08a_verdict",
+      "path": "artifacts/risk_budgeted_imm_v08a/ETHUSDT/fixed_penalty_statistical_closure/scientific_verdict.json",
+      "sha256": "ca7e10812ded7189ccf439daa77854b4452199e96a542e26c82b9ad63e1bc1a1",
+      "size_bytes": 1417
+    },
+    {
+      "name": "v09_protocol",
+      "path": "artifacts/risk_budgeted_imm_v09/ETHUSDT/budget_paced_order_aware/protocol.json",
+      "sha256": "7f454abac05c07eba29281222aa0838fb95806c0942fac03fe6ec6f775208a5b",
+      "size_bytes": 1431
+    },
+    {
+      "name": "v09_training_integrity",
+      "path": "artifacts/risk_budgeted_imm_v09/ETHUSDT/budget_paced_order_aware/training_integrity_ep10.csv",
+      "sha256": "541a71ecf24b0702037bc5a8342f951749f33a245ec07ef56348cf053e82c54b",
+      "size_bytes": 3331
+    },
+    {
+      "name": "v09_episodes",
+      "path": "artifacts/risk_budgeted_imm_v09/ETHUSDT/budget_paced_order_aware/adaptive_validation_episodes.csv",
+      "sha256": "37a2492fad6ffb200622eb891dd4cac9a76b712081d1a48b70bc038d8590b6ae",
+      "size_bytes": 27354
+    },
+    {
+      "name": "v09_transitions",
+      "path": "artifacts/risk_budgeted_imm_v09/ETHUSDT/budget_paced_order_aware/adaptive_validation_transitions.parquet",
+      "sha256": "23d6cb89f54f8cca82050c470349b2093acc59658b0e231770959b6e06baeb39",
+      "size_bytes": 23472590
+    },
+    {
+      "name": "v09_decision",
+      "path": "artifacts/risk_budgeted_imm_v09/ETHUSDT/budget_paced_order_aware/scientific_decision.json",
+      "sha256": "0118d7de3c9ee0bfa44b680095c176608783e0638476309fc546bc10e20c91ee",
+      "size_bytes": 1248
+    }
+  ],
+  "source_method_digest": "9f8d01ab0542f8d4238d95f3e20e4831a86fdd9c31784a2d1a908a2851431af4",
+  "test_used": false
+}

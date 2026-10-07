@@ -1,0 +1,14 @@
+check,passed,detail
+five_seeds,True,"[10801, 10802, 10803, 10804, 10805]"
+seven_windows,True,"[602028, 619985, 637921, 655797, 673777, 691626, 709586]"
+two_frozen_labels,True,"['K0_UNCONSTRAINED', 'K4_VERY_STRONG']"
+primary_checkpoint_only,True,[np.int64(10)]
+complete_factorial,True,70
+no_duplicate_cells,True,
+matched_cells,True,
+expected_starts,True,
+horizons_complete,True,
+offgrid_zero,True,
+source_test_unused,True,
+no_checkpoint_reselection,True,
+matched_training_schedules,True,

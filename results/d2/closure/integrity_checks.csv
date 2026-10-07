@@ -1,0 +1,17 @@
+check,passed,detail
+five_seeds,True,"[np.int64(10801), np.int64(10802), np.int64(10803), np.int64(10804), np.int64(10805)]"
+seven_windows,True,"[np.int64(602028), np.int64(619985), np.int64(637921), np.int64(655797), np.int64(673777), np.int64(691626), np.int64(709586)]"
+three_adaptive_arms,True,"['D0_EPISODIC_DUAL', 'D1_REALIZED_PACING', 'D2_ORDER_AWARE_PACING']"
+adaptive_complete_factorial,True,105
+historical_complete_factorial,True,70
+adaptive_no_duplicates,True,
+historical_no_duplicates,True,
+primary_checkpoint_only,True,
+complete_horizons,True,
+offgrid_zero,True,
+training_integrity_15_branches,True,15
+training_all_ep10,True,
+method_digest_match,True,
+no_test_access,True,
+no_checkpoint_reselection,True,
+no_controller_retuning,True,
