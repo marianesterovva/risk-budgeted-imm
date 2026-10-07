@@ -21,5 +21,3 @@ Parquet files are intentionally excluded.
 
 The reported experiments use frozen validation windows.
 The untouched test/OOS split was not accessed.
-
-Paper/preprint: ADD_LINK_HERE
